@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/globe-view/static/css/main.13d408c3.css",
-    "main.js": "/globe-view/static/js/main.b8fc8628.js",
+    "main.js": "/globe-view/static/js/main.8e9540df.js",
     "static/js/787.4741db0c.chunk.js": "/globe-view/static/js/787.4741db0c.chunk.js",
     "static/media/universities.csv": "/globe-view/static/media/universities.235fe145608e9ccac725.csv",
     "static/media/ttu.png": "/globe-view/static/media/ttu.96a17765ce684d53e8a5.png",
     "static/media/geoUniversity.csv": "/globe-view/static/media/geoUniversity.4d12ba059efa3ac8f3ab.csv",
     "index.html": "/globe-view/index.html",
     "main.13d408c3.css.map": "/globe-view/static/css/main.13d408c3.css.map",
-    "main.b8fc8628.js.map": "/globe-view/static/js/main.b8fc8628.js.map",
+    "main.8e9540df.js.map": "/globe-view/static/js/main.8e9540df.js.map",
     "787.4741db0c.chunk.js.map": "/globe-view/static/js/787.4741db0c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13d408c3.css",
-    "static/js/main.b8fc8628.js"
+    "static/js/main.8e9540df.js"
   ]
 }
