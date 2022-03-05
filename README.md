@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Globe view
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fast project build with React and react-globe.gl
 
 ## Available Scripts
 
