@@ -10,7 +10,8 @@ import ttulogo from "./ttu.png"
 import SpaceDust from "./Components/SpaceDust"
 
 // [{ lat: 19.6, lng: 80, altitude: 0.6 },{ lat: 50, lng: 60, altitude: 0.4 },{ lat: 31.3037101, lng: -89.29276214, altitude: 0.4 },{ lat: 33.5842591, lng: -101.8804709, altitude: 0.6 }]
-const MAP_CENTERs = [{ lat: 19.6, lng: 80, altitude: 0.6 },{ lat: 51.58421865, lng: 45.9571029, altitude: 0.4 },{ lat: 31.3037101, lng: -89.29276214, altitude: 0.4 },{ lat: 33.5842591, lng: -101.8804709, altitude: 0.6 }];
+// const MAP_CENTERs = [{ lat: 87.5842591, lng: -70.8804709, altitude: 1.8 }];
+const MAP_CENTERs = [{ lat: 19.6, lng: 80, altitude: 0.6 },{ lat: 51.58421865, lng: 45.9571029, altitude: 0.4 },{ lat: 31.3037101, lng: -89.29276214, altitude: 0.4 },{ lat: 33.5842591, lng: -101.8804709, altitude: 0.6 },{ lat: 87.5842591, lng: -70.8804709, altitude: 1.8 }];
 // const MAP_CENTER = { lat: 33.5842591, lng: -101.8804709, altitude: 0.6 };
 const OPACITY = 0.3;
 const RING_PROPAGATION_SPEED = 1; // deg/sec
@@ -72,7 +73,7 @@ function App() {
         }
     },[currentSequnce])
     function stopPlay(){
-        setCurrentSequnce(5)
+        setCurrentSequnce(MAP_CENTERs.length)
     }
     return  <div
         className="App"
@@ -188,7 +189,7 @@ function App() {
             }}
                  onClick={()=>{setCurrentSequnce(0)}}
             >
-            Where are you from? <img src={ttulogo} width={"50px"} alt="Logo" />
+            Where are you from? <img src={ttulogo} width={"70px"} alt="Logo" />
             </div>
         </div>
     </div>;
