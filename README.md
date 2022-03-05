@@ -2,6 +2,8 @@
 
 A fast project build with React and react-globe.gl
 
+![snapshot](https://github.com/iDataVisualizationLab/globe-view/blob/main/public/snapshot.PNG)
+
 ## Available Scripts
 
 In the project directory, you can run:
