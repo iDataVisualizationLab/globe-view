@@ -4,7 +4,7 @@ import { useFrame } from '@react-three/fiber';
 function Random(range){
     return Math.random()*(range[1]-range[0])+range[0];
 }
-export function SpaceDust({ count }) {
+export default function SpaceDust({ count }) {
     const mesh = useRef();
     const light = useRef();
 

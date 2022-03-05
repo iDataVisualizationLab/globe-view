@@ -9,3 +9,16 @@ body {
   padding: 0;
   overflow: hidden;
 }
+/* Scroll 1 */
+.sc1::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.sc1::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+.sc1::-webkit-scrollbar-thumb {
+  background-color: #dfdfdf;
+  border-radius: 10px;
+}
